@@ -5,25 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
 
-    <style>
-      
-    </style>
+    <style></style>
   </head>
   <body>
     <!-- wrapper div -->
-    <div>
+    <div class="wrapper m-auto">
       <!-- uppper div -->
       <div>
         <header>
           <nav>
             <ul class="flex justify-end">
-              <li>works</li>
-              <li>blog</li>
-              <li>contact</li>
+              <li>
+                <a href="#" class="hover:underline decoration-red"> works </a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline decoration-red"> blog </a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline decoration-red"> contact </a>
+              </li>
             </ul>
           </nav>
         </header>
-        upper div
+
+        <!-- display area -->
+        <div class="display-area">
+          <div class="flex items-center justify-between">
+            <div>
+              <h1 class="font-heebo text-xl text-noir font-bold pb-10">
+                Hi, I am John, Creative Technologist
+              </h1>
+              <p class="font-heebo text-base text-noir max-w-[497px]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+            <div
+              class="h-[243px] w-[243px] relative bg-light-blue rounded-full overflow-hidden"
+            >
+              <img
+                class="h-[243px] w-[243px] absolute -top-2 -right-2"
+                src="../imgs/avatar.svg"
+                alt="man picture"
+              />
+            </div>
+          </div>
+
+          <button
+            class="bg-light-red py-[10px] px-5 rounded-sm text-md text-white font-medium capitalize mt-2.5"
+          >
+            downnload resume
+          </button>
+        </div>
       </div>
 
       <!-- blog area -->

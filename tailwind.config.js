@@ -15,14 +15,15 @@ module.exports = {
       xl: ["44px", "60px"],
     },
     backgroundColor: {
-      "bg-light-blue": "#EDF7FA",
-      "bg-light-red": "#FF6464",
+      "light-blue": "#EDF7FA",
+      "light-red": "#FF6464",
     },
     colors: {
       black: "#000000",
       noir: "#21243D",
       white: "#FFFFFF",
       grey: "#8695A4",
+      red: "#FF6464",
       "deep-blue": "#142850",
     },
     extend: {},

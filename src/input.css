@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
 
+
+.wrapper {
+  max-width: 1152px;
+}
 header nav ul {
   padding: 27px 60px;
 }
@@ -14,4 +18,16 @@ header nav ul > *:not(:last-child){
 
 header nav ul li {
   @apply font-heebo font-medium text-md capitalize text-black;
+}
+
+.display-area {
+  margin: 202px 149px 71px;
+}
+
+.display-area {
+  margin-right: 115px;
+}
+
+.display-area h1 {
+  max-width: 460px;
 }

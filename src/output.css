@@ -554,12 +554,141 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem;
+}
+
 .flex {
   display: flex;
 }
 
+.h-\[243px\] {
+  height: 243px;
+}
+
+.w-\[243px\] {
+  width: 243px;
+}
+
+.max-w-\[497px\] {
+  max-width: 497px;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.bg-light-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 247 250 / var(--tw-bg-opacity));
+}
+
+.bg-light-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 100 100 / var(--tw-bg-opacity));
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.font-heebo {
+  font-family: Heebo, sans-serif;
+}
+
+.text-base {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-md {
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.text-xl {
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-noir {
+  --tw-text-opacity: 1;
+  color: rgb(33 36 61 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.decoration-red {
+  text-decoration-color: #FF6464;
+}
+
+.wrapper {
+  max-width: 1152px;
 }
 
 header nav ul {
@@ -578,4 +707,17 @@ header nav ul li {
   text-transform: capitalize;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.display-area {
+  margin: 202px 149px 71px;
+  margin-right: 115px;
+}
+
+.display-area h1 {
+  max-width: 460px;
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
